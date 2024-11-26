@@ -1,6 +1,6 @@
 # FinDER for example.
 # You can use other tasks such as `FinQA`, `TATQA`, etc.
-from financerag.common.protocols import CrossEncoder
+from sentence_transformers.cross_encoder import CrossEncoder
 from financerag.tasks import FinDER
 from financerag.retrieval import SentenceTransformerEncoder, DenseRetrieval
 from financerag.rerank import CrossEncoderReranker
