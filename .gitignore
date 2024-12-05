@@ -164,3 +164,11 @@ cython_debug/
 
 .idea
 res/**/*
+fine_tuned_model
+res.old
+results
+results.old
+dataframe.pkl
+v0.csv
+v1.csv
+checkpoints
